@@ -1,6 +1,115 @@
+
+.form
+{
+    margin: auto;
+    padding: 1%;
+    width: 500px;
+    border: 2px solid black;
+    border-radius: 2em;
+    background-color: #d4fac2;
+}
+
+legend
+{
+    font-size: larger;
+    font-weight: bold;
+}
+
+
+label
+{
+    display: inline-block;
+    width: 95px;
+    text-align: right;
+    margin: 2%;
+    vertical-align: top;
+    font-family: sans-serif;
+}
+
 #msg
 {
+    min-width: 70%;
+    min-height: 100px;
 
 }
-.form
-{}
+
+input, textarea
+{
+    margin:2%;
+    font: normal 1em sans-serif;
+    width: 70%;
+    vertical-align: top;
+    box-sizing: border-box;
+    border: 1px solid black;
+    height: auto;
+    box-shadow: #ff706d;
+    background-color: rgba(255, 141, 128, 0.24);
+
+}
+
+input:focus, textarea:focus
+{
+    border-color: #ff706d;
+}
+
+button
+{
+    margin: 2%;
+    padding: 2%;
+    width: auto;
+    border-radius: 1.5em;
+
+}
+
+#submit
+{
+    display: inline-block;
+    position: relative;
+    margin: 2%;
+    width: 44%;
+    text-align: center;
+
+}
+
+#reset
+{
+    display: inline-block;
+    position: relative;
+    margin: 2%;
+    width: 44%;
+    text-align: center;
+}
+
+span
+{
+    text-align: center;
+    font-weight: bolder;
+    width: 100px;
+}
+
+
+.radio
+{
+    display: inline-block;
+    position: relative;
+    margin: 2%;
+    width: 3%;
+    text-align: center;
+}
+#util-yes
+{
+    display: inline-block;
+    position: relative;
+    margin: 2%;
+    width: 3%;
+    text-align: center;
+}
+
+#util-no
+{
+    display: inline-block;
+    position: relative;
+    margin: 2%;
+    width: 3%;
+    text-align: center;
+}
